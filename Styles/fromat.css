@@ -1,0 +1,52 @@
+body{
+    background-color: darkseagreen;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.img_head{
+    display: flex;
+    
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 800px;
+    padding:32px 64px;
+    margin: auto;
+}
+
+.redes{
+    width: 25px;
+    position: top;
+    height:25px;
+    justify-content: right;
+
+}
+
+.flex1{
+    display: flex; 
+    justify-content: space-around;
+}
+
+
+.foto1{
+    width: 369px;
+    height: 369px;
+    position: right;
+}
+
+.flex2{
+
+}
+
+
+
