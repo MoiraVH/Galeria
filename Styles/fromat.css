@@ -1,52 +1,111 @@
 body{
-    background-color: darkseagreen;
+    background-color: #cbefb6;
 }
 
-.header{
+
+header{
     display: flex;
     flex-direction: row;
 }
 
 .img_head{
     display: flex;
-    
 }
 
-hr {
-    height: 2px;
-    background-color: black;
-}
 
 .contenedor {
-    width: 80%;
-    max-width: 800px;
-    padding:32px 64px;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #597445;
+    border: 10px solid #597445;
 }
 
 .redes{
-    width: 25px;
-    position: top;
-    height:25px;
-    justify-content: right;
+    display: flex;
+    flex-direction: row-reverse;    
+    gap: 30px;
+}
 
+.redes img{
+    width: 40px;
+    height: 40px;
 }
 
 .flex1{
     display: flex; 
-    justify-content: space-around;
+    flex-direction: row;
+    gap: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    text-align: justify;
+
 }
 
-
-.foto1{
-    width: 369px;
-    height: 369px;
+.flex1 img{
+    width: 300px;
+    height: 400px;
     position: right;
+    border-radius: 20px;
 }
 
 .flex2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    border: 2px ;
+    padding: 10px;
+    width: 50%;
+}
 
+.flex2 img {
+    width: 200px;
+    height: 200px;
+    margin: 1%;
+    border-radius: 15px;
+    filter: grayscale(100%); /* Aplica el filtro de blanco y negro */
+    transition: transform 0.3s, box-shadow 0.3s; /* Añade una transición suave para el efecto hover */
+}
+
+.flex2 img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen en un 10% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra a la imagen */
+    filter: grayscale(0%); /* Quita el filtro de blanco y negro */
+}
+
+.autorContainer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;
+    border: 2px solid #1b3726;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+}
+
+.autorContainer img{
+    height: 150;
+    width: 150px;
+    border-radius: 150px;
 }
 
 
+.footer {
+    background-color: #597445;
 
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+        justify-content: space-around;
+    margin: auto;
+    border: 2px ;
+    padding: 10px;
+}
