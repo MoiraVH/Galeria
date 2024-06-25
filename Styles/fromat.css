@@ -3,19 +3,10 @@ body{
 }
 
 
-header{
-    display: flex;
-    flex-direction: row;
-}
-
-.img_head{
-    display: flex;
-}
-
-
 .contenedor {
     display: flex;
     flex-direction: row;
+    gap: 500px;
     background-color: #597445;
     border: 10px solid #597445;
 }
@@ -90,7 +81,7 @@ header{
 }
 
 .autorContainer img{
-    height: 150;
+    height: 150px;
     width: 150px;
     border-radius: 150px;
 }
@@ -104,8 +95,13 @@ header{
 .footer-container {
     display: flex;
     flex-direction: row;
-        justify-content: space-around;
-    margin: auto;
-    border: 2px ;
+    justify-content: center;
     padding: 10px;
+}
+
+
+.footer-container img{
+    width: 40px;
+    height: 40px;
+    
 }
